@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Love-Letter/static/css/main.0c79d805.css",
-    "main.js": "/Love-Letter/static/js/main.4da5e400.js",
+    "main.js": "/Love-Letter/static/js/main.400a7dff.js",
     "index.html": "/Love-Letter/index.html",
     "main.0c79d805.css.map": "/Love-Letter/static/css/main.0c79d805.css.map",
-    "main.4da5e400.js.map": "/Love-Letter/static/js/main.4da5e400.js.map"
+    "main.400a7dff.js.map": "/Love-Letter/static/js/main.400a7dff.js.map"
   },
   "entrypoints": [
     "static/css/main.0c79d805.css",
-    "static/js/main.4da5e400.js"
+    "static/js/main.400a7dff.js"
   ]
 }

@@ -2,7 +2,8 @@ import React from 'react';
 import Card from './components/Card';
 
 function App() {
-    const name = "Авелина";
+    const nameTo = "Авелина";
+    const nameFrom = "Марат";
 
     return (
         <div
@@ -14,14 +15,14 @@ function App() {
                      fontSize: 'clamp(1rem, 4vw, 2rem)'
                  }}
             >
-                <p className="text-yellow-300 font-extrabold text-shadow-lg">Для кого: <span className="text-blue-300">{name}</span></p>
-                <p className="text-green-300 font-extrabold text-shadow-lg">От кого: <span className="text-pink-200">Марат 💌</span></p>
+                <p className="text-yellow-300 font-extrabold text-shadow-lg">Для кого: <span className="text-blue-300">{nameTo}</span></p>
+                <p className="text-green-300 font-extrabold text-shadow-lg">От кого: <span className="text-pink-200">{nameFrom}</span></p>
             </div>
 
             <div className="w-full max-w-lg">
                 <Card
                     title="🌸 С 8 марта! 🌸"
-                    text={`Дорогая ${name}, поздравляю тебя с этим прекрасным днем! Пусть твоя жизнь будет наполнена счастьем, любовью и яркими моментами. Желаю тебе здоровья, вдохновения и счастья на каждом шагу! Я тебя очень люблю! 💐🌷`}
+                    text={`Дорогая ${nameTo}, поздравляю тебя с этим прекрасным днем! Пусть твоя жизнь будет наполнена счастьем, любовью и яркими моментами. Желаю тебе здоровья, вдохновения и счастья на каждом шагу! Я тебя очень люблю! 💐🌷`}
                     colorClass="text-pink-700 font-semibold text-shadow-md"
                 />
 

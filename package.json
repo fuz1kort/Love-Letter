@@ -1,7 +1,7 @@
 {
   "name": "love-app",
   "version": "0.1.0",
-  "homepage": "https://fuz1kort.github.io/love-letter",
+  "homepage": "https://fuz1kort.github.io/Love-Letter",
   "private": true,
   "dependencies": {
     "react": "^19.0.0",
